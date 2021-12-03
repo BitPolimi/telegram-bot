@@ -70,6 +70,7 @@ def delete_message(context: CallbackContext):
 
 
 def main():
+    ''' Main function '''
     updater = Updater(token=BOT_TOKEN)
 
     dp = updater.dispatcher.add_handler
